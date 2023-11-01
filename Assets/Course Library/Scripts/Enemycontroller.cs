@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemycontroller : MonoBehaviour
 {
     public float speed;
     private Rigidbody enemyRb;
@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
      enemyRb = GetComponent<Rigidbody>();
-     player = GameObject.Find("Player");
+     player = GameObject.Find("Marble Player:Pepsi");
     }
 
     // Update is called once per frame
