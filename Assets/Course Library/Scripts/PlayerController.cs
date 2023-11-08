@@ -34,7 +34,6 @@ public class PlayerController : MonoBehaviour
        StartCoroutine(PowerupCountdownRoutine());
       }
     }
-
     IEnumerator PowerupCountdownRoutine()
     {
      yield return new WaitForSeconds(7);
